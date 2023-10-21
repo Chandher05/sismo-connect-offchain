@@ -21,3 +21,8 @@ export async function POST(req: Request) {
     return NextResponse.json(e.message, { status: 500 });
   }
 }
+
+
+export async function GET() {
+  return "GET Working"
+}
